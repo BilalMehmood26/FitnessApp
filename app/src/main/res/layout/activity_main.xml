@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/one"
+    tools:context="com.bblaysstudio.fitnessapp.MainActivity">
+
+    <Button
+        android:id="@+id/Gym_Workout"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_corners"
+        android:text="Gym Workout"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/Diet_screen"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Gym_Workout"
+        android:background="@drawable/rounded_corners"
+        android:text="Diet Plan"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

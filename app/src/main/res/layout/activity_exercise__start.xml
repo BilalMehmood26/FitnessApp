@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Exercise_Start">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/gif"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Name"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameExc"
+        android:textColor="#000"
+        android:layout_below="@+id/gif"
+        android:textSize="25sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@+id/nameExc"
+        android:id="@+id/line"
+        android:layout_marginTop="25sp"
+        android:layout_height="40sp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="5sp"
+            android:text="Start"
+            android:background="@drawable/goal"
+            android:id="@+id/start"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10sp"
+            android:src="@drawable/start"
+            />
+
+        <ImageView
+            android:id="@+id/stop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/stop"
+            android:textColor="@color/black"
+            android:layout_marginRight="5sp"
+            android:background="@drawable/goal"
+            android:text="Stop" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:layout_marginRight="10sp"
+            android:text="Next"
+            android:src="@drawable/next"
+            android:background="@drawable/goal"
+            android:id="@+id/next"
+            />
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:15"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@id/line"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp"
+        android:textSize="60sp"
+        android:layout_margin="10sp"
+        android:id="@+id/time"
+
+        />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/time"
+    android:id="@+id/workoutComplete"
+    android:text="WorkOut Complete"
+    android:textColor="@color/black"
+    android:textSize="30sp"
+    android:visibility="invisible"
+    android:textStyle="bold"
+    android:layout_marginTop="20sp"
+    />
+
+</RelativeLayout>
