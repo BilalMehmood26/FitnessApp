@@ -3,4 +3,8 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_exercise">Exercise</string>
+    <string name="nav_diet">Diet Plan</string>
+    <string name="nav_workout">Workout Plan</string>
+    <string name="nav_utility">Utility</string>
 </resources>

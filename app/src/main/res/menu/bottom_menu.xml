@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_exercise"
+        android:icon="@drawable/dumbell"
+        android:title="@string/nav_exercise" />
+    <item
+        android:id="@+id/nav_workout"
+        android:icon="@drawable/workout_clock"
+        android:title="@string/nav_workout" />
+    <item
+        android:id="@+id/nav_diet"
+        android:icon="@drawable/diet"
+        android:title="@string/nav_diet" />
+    <item
+        android:id="@+id/nav_utility"
+        android:icon="@drawable/calculator"
+        android:title="@string/nav_utility" />
+</menu>
